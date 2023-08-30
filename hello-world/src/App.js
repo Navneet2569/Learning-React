@@ -9,7 +9,7 @@ import Counter from "./components/Counter";
 function App() {
   return (
     <div className="App">
-      <Counter />
+      {/* <Counter /> */}
 
       {/* <Greet name="Diana" heroName="Wonder Woman">
         This is children props
@@ -27,6 +27,8 @@ function App() {
       <Hello /> */}
 
       {/* <Message /> */}
+
+      <Greet name="Steve Rogers" heroName="Captain America" />
     </div>
   );
 }
