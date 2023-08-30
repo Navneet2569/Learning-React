@@ -29,6 +29,8 @@ function App() {
       {/* <Message /> */}
 
       <Greet name="Steve Rogers" heroName="Captain America" />
+      <Welcome name="Steve Rogers" heroName="Captain America" />
+      <Counter />
     </div>
   );
 }

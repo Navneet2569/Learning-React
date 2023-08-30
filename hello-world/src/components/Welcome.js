@@ -2,12 +2,12 @@ import React, { Component } from "react";
 
 class Welcome extends Component {
   render() {
+    const { name, heroName } = this.props; //In similar manner you can destructure states as well
     return (
       <div>
         <h1>
-          Welcome {this.props.name} a.k.a {this.props.heroName}
+          Welcome {name} a.k.a {heroName}
         </h1>
-        {this.props.children}
       </div>
     );
   }
