@@ -5,6 +5,7 @@ import "./App.css";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import FunctionClick from "./components/FunctionClick";
 
 function App() {
   return (
@@ -28,9 +29,11 @@ function App() {
 
       {/* <Message /> */}
 
-      <Greet name="Steve Rogers" heroName="Captain America" />
+      {/* <Greet name="Steve Rogers" heroName="Captain America" />
       <Welcome name="Steve Rogers" heroName="Captain America" />
-      <Counter />
+      <Counter /> */}
+
+      <FunctionClick />
     </div>
   );
 }
