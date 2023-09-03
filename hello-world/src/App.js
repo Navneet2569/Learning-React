@@ -15,7 +15,7 @@ import NameList from "./components/NameList";
 function App() {
   return (
     <div className="App">
-      {/* <Counter /> */}
+      <Counter />
 
       {/* <Greet name="Diana" heroName="Wonder Woman">
         This is children props
