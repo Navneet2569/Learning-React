@@ -44,8 +44,8 @@ function App() {
 
       {/* <EventBind /> */}
 
-      {/* <ParentComponent />
-      <UserGreeting /> */}
+      <ParentComponent />
+      <UserGreeting />
 
       <NameList />
     </div>
