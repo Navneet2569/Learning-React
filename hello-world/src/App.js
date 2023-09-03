@@ -11,12 +11,13 @@ import EventBind from "./components/EventBind";
 import ParentComponent from "./components/ParentComponent";
 import UserGreeting from "./components/UserGreeting";
 import NameList from "./components/NameList";
+import Stylesheets from "./components/Stylesheets";
+import Inline from "./components/Inline";
 
 function App() {
   return (
     <div className="App">
-      <Counter />
-
+      {/* <Counter /> */}
       {/* <Greet name="Diana" heroName="Wonder Woman">
         This is children props
       </Greet>
@@ -31,23 +32,21 @@ function App() {
       <Welcome name="Bruce" heroName="Batman" />
       <Welcome name="Bruce" heroName="Batman" />
       <Hello /> */}
-
       {/* <Message /> */}
-
       {/* <Greet name="Steve Rogers" heroName="Captain America" />
       <Welcome name="Steve Rogers" heroName="Captain America" />
       <Counter /> */}
-
       {/* <FunctionClick />
 
       <ClassClick /> */}
-
       {/* <EventBind /> */}
-
-      <ParentComponent />
+      {/* <ParentComponent />
       <UserGreeting />
 
-      <NameList />
+      <NameList /> */}
+      {/* //Next Lesson */}
+      <Stylesheets primary={true} />
+      <Inline />
     </div>
   );
 }
