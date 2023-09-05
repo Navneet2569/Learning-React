@@ -14,6 +14,7 @@ import NameList from "./components/NameList";
 import Stylesheets from "./components/Stylesheets";
 import Inline from "./components/Inline";
 import Form from "./components/Form";
+import LifecycleA from "./components/LifecycleA";
 
 function App() {
   return (
@@ -50,6 +51,8 @@ function App() {
       <Inline /> */}
 
       <Form />
+
+      <LifecycleA />
     </div>
   );
 }
