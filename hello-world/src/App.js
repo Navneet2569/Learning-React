@@ -13,6 +13,7 @@ import UserGreeting from "./components/UserGreeting";
 import NameList from "./components/NameList";
 import Stylesheets from "./components/Stylesheets";
 import Inline from "./components/Inline";
+import Form from "./components/Form";
 
 function App() {
   return (
@@ -45,8 +46,10 @@ function App() {
 
       <NameList /> */}
       {/* //Next Lesson */}
-      <Stylesheets primary={true} />
-      <Inline />
+      {/* <Stylesheets primary={true} />
+      <Inline /> */}
+
+      <Form />
     </div>
   );
 }
