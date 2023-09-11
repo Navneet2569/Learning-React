@@ -5,6 +5,7 @@ import Table from "./components/Table";
 import PureComp from "./components/PureComp";
 import ParentComp from "./components/ParentComp";
 import RefsDemo from "./components/RefsDemo";
+import FocusInput from "./components/FocusInput";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
 
       {/* <ParentComp />  */}
 
-      <RefsDemo />
+      {/* <RefsDemo /> */}
+
+      <FocusInput />
     </div>
   );
 }
