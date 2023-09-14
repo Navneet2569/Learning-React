@@ -14,6 +14,7 @@ import ClickCounter from "./components/ClickCounter";
 import HoverCounter from "./components/HoverCounter";
 import ClickCounter2 from "./components/ClickCounter2";
 import HoverCounter2 from "./components/HoverCounter2";
+import User from "./components/User";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
       {/* <FRParentInput /> */}
 
       {/* <PortalDemo /> */}
+
       {/* <ErrorBoundary>
         <Hero heroName="Batman" />
       </ErrorBoundary>
@@ -46,6 +48,7 @@ function App() {
 
       <ClickCounter2 />
       <HoverCounter2 />
+      <User render={(isLoggedIn) => (isLoggedIn ? "Navneet Singh" : "Guest")} />
     </div>
   );
 }
