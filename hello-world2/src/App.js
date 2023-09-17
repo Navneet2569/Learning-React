@@ -17,6 +17,7 @@ import HoverCounter2 from "./components/HoverCounter2";
 import User from "./components/User";
 import Counter from "./components/Counter";
 import C from "./components/C";
+import { UserProvider } from "./components/UserContext";
 
 function App() {
   return (
@@ -63,7 +64,9 @@ function App() {
         )}
       /> */}
 
-      <C />
+      <UserProvider value="Navneet Singh">
+        <C />
+      </UserProvider>
     </div>
   );
 }

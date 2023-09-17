@@ -1,11 +1,14 @@
 import React, { Component } from "react";
+import { UserConsumer } from "./UserContext";
 
 class F extends Component {
   render() {
     return (
-      <div>
-        <h1>Component F</h1>
-      </div>
+      <UserConsumer>
+        {(username) => {
+          return <h1>Hello {username}</h1>;
+        }}
+      </UserConsumer>
     );
   }
 }
