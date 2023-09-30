@@ -11,6 +11,7 @@ import DataFetching from "./components/DataFetching";
 import C from "./components/C";
 
 export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 
 function App() {
   return (
@@ -25,7 +26,9 @@ function App() {
       {/* <DataFetching /> */}
 
       <UserContext.Provider value={"Navneet"}>
-        <C />
+        <ChannelContext.Provider value={"NavCoders"}>
+          <C />
+        </ChannelContext.Provider>
       </UserContext.Provider>
     </div>
   );
