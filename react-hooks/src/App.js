@@ -8,6 +8,9 @@ import HookCounter1 from "./components/HookCounter1";
 import HookMouse from "./components/HookMouse";
 import IntervalHookCounter from "./components/IntervalHookCounter";
 import DataFetching from "./components/DataFetching";
+import C from "./components/C";
+
+export const UserContext = React.createContext();
 
 function App() {
   return (
@@ -19,7 +22,11 @@ function App() {
       {/* <HookCounter1 /> */}
       {/* <HookMouse /> */}
       {/* <IntervalHookCounter /> */}
-      <DataFetching />
+      {/* <DataFetching /> */}
+
+      <UserContext.Provider value={"Navneet"}>
+        <C />
+      </UserContext.Provider>
     </div>
   );
 }
