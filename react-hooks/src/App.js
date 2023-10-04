@@ -22,8 +22,8 @@ function App() {
       {/* <HookCounter3 /> */}
       {/* <HookCounter1 /> */}
       {/* <HookMouse /> */}
-      <IntervalHookCounter />
-      <DataFetching />
+      {/* <IntervalHookCounter /> */}
+      {/* <DataFetching /> */}
 
       <UserContext.Provider value={"Navneet"}>
         <ChannelContext.Provider value={"NavCoders"}>
