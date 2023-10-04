@@ -14,6 +14,9 @@ export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
 
 function App() {
+  const array = [1, 2, 3, 4];
+  const reducer = (acc, crr) => acc + crr;
+  const ans = array.reduce(reducer, 5);
   return (
     <div className="App">
       {/* <ClassCounter /> */}
@@ -25,11 +28,12 @@ function App() {
       {/* <IntervalHookCounter /> */}
       {/* <DataFetching /> */}
 
-      <UserContext.Provider value={"Navneet"}>
+      {/* <UserContext.Provider value={"Navneet"}>
         <ChannelContext.Provider value={"NavCoders"}>
           <C />
         </ChannelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+      {ans}
     </div>
   );
 }
