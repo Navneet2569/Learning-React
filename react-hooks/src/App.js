@@ -36,9 +36,9 @@ function App() {
         </ChannelContext.Provider>
       </UserContext.Provider> */}
 
-      <h1>{ans}</h1>
+      {/* <h1>{ans}</h1> */}
 
-      <Counter1 />
+      {/* <Counter1 /> */}
       <Counter2 />
     </div>
   );
