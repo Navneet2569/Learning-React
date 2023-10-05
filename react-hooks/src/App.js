@@ -10,6 +10,7 @@ import IntervalHookCounter from "./components/IntervalHookCounter";
 import DataFetching from "./components/DataFetching";
 import C from "./components/C";
 import Counter1 from "./components/Counter1";
+import Counter2 from "./components/Counter2";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -38,6 +39,7 @@ function App() {
       <h1>{ans}</h1>
 
       <Counter1 />
+      <Counter2 />
     </div>
   );
 }
