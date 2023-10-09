@@ -41,7 +41,7 @@ function App() {
 
       {/* <Counter1 /> */}
       {/* <Counter2 /> */}
-      <Counter3 />
+      {/* <Counter3 /> */}
     </div>
   );
 }
