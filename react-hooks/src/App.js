@@ -12,6 +12,9 @@ import C from "./components/C";
 import Counter1 from "./components/Counter1";
 import Counter2 from "./components/Counter2";
 import Counter3 from "./components/Counter3";
+import ComponentA from "./components/ComponentA";
+import ComponentB from "./components/ComponentB";
+import ComponentC from "./components/ComponentC";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -42,6 +45,10 @@ function App() {
       {/* <Counter1 /> */}
       {/* <Counter2 /> */}
       {/* <Counter3 /> */}
+
+      <ComponentA />
+      <ComponentB />
+      <ComponentC />
     </div>
   );
 }
