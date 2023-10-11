@@ -15,6 +15,7 @@ import Counter3 from "./components/Counter3";
 import ComponentA from "./components/ComponentA";
 import ComponentB from "./components/ComponentB";
 import ComponentC from "./components/ComponentC";
+import DataFetching1 from "./components/DataFetching1";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -63,8 +64,8 @@ function App() {
 
       {/* <Counter1 /> */}
       {/* <Counter2 /> */}
-      <Counter3 />
-      <CountContext.Provider
+      {/* <Counter3 /> */}
+      {/* <CountContext.Provider
         value={{ countState: count, countDispatch: dispatch }}
       >
         <div>
@@ -74,7 +75,9 @@ function App() {
           <ComponentB />
           <ComponentC />
         </div>
-      </CountContext.Provider>
+      </CountContext.Provider> */}
+
+      <DataFetching1 />
     </div>
   );
 }
